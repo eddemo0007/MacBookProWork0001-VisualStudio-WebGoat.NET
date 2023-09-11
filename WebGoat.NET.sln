@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebGoat.NET", "WebGoat\WebGoat.NET.csproj", "{83B04441-0F79-4424-AAD0-46E0C3CDDAA1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE676A59-B4BC-4CDD-82B1-7958C236CCB4}"
+	ProjectSection(SolutionItems) = preProject
+		EdsVersion.txt = EdsVersion.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,10 +24,7 @@ Global
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = PrefixedFlat
-		$1.ResourceNamePolicy = FileFormatDefault
 		$0.StandardHeader = $2
-		$2.Text = 
-		$2.IncludeInNewFiles = True
 		$0.TextStylePolicy = $3
 		$3.inheritsSet = null
 		$3.scope = text/x-csharp
@@ -43,14 +45,27 @@ Global
 		$4.BeforeConstructorDeclarationParentheses = False
 		$4.NewParentheses = False
 		$4.SpacesBeforeBrackets = False
-		$4.inheritsSet = Mono
-		$4.inheritsScope = text/x-csharp
 		$4.scope = text/x-csharp
+		$4.IndentSwitchSection = False
+		$4.NewLinesForBracesInProperties = False
+		$4.NewLinesForBracesInAccessors = False
+		$4.NewLinesForBracesInAnonymousMethods = False
+		$4.NewLinesForBracesInControlBlocks = False
+		$4.NewLinesForBracesInAnonymousTypes = False
+		$4.NewLinesForBracesInObjectCollectionArrayInitializers = False
+		$4.NewLinesForBracesInLambdaExpressionBody = False
+		$4.NewLineForElse = False
+		$4.NewLineForCatch = False
+		$4.NewLineForFinally = False
+		$4.NewLineForMembersInObjectInit = False
+		$4.NewLineForMembersInAnonymousTypes = False
+		$4.NewLineForClausesInQuery = False
+		$4.SpacingAfterMethodDeclarationName = True
+		$4.SpaceAfterMethodCallName = True
+		$4.SpaceBeforeOpenSquareBracket = True
 		$0.TextStylePolicy = $5
-		$5.FileWidth = 120
-		$5.inheritsSet = VisualStudio
-		$5.inheritsScope = text/plain
 		$5.scope = text/plain
+		$5.TabsToSpaces = True
 		$0.NameConventionPolicy = $6
 		$6.Rules = $7
 		$7.NamingRule = $8
